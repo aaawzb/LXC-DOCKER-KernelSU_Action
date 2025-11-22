@@ -47,6 +47,7 @@ jobs:
     - name: 拉取wifi模块-仅vince安卓16
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
+        cd android-kernel
         git clone --depth=1 https://github.com/Mi-Thorium/vendor_qcom_opensource_wlan_prima.git -b wlan/LA.UM.9.6.4/mithorium/master drivers/staging/prima
 
     - name: 开启lxc和docker配置
