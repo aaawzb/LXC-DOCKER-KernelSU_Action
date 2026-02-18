@@ -1,4 +1,4 @@
-name: 低端机 zyc clang23 4.19 安卓16 简化配置 vince clang12-v5
+name: 低端机 zyc clang12 4.19 安卓16 简化配置 vince v5
 on:
   workflow_dispatch:
 
