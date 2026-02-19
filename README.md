@@ -8,7 +8,9 @@
 ## 最新说明 2026年02月14日
 > 最新工作流，采用新的一套内核配置，去除了80项 冗余的 lxc-docker内核配置项，作用是，最小限度修改内核
 
-> 用 `通用 低端机 zyc clang23 简化配置` 这个最新工作流即可，对应的工作流文件是 `build-zyc-clang23-simplified-universal.yml`
+>  用`通用 低端机 zyc clang23 简化配置` 这个最新工作流即可，对应的工作流文件是 `build-zyc-clang23-simplified-universal.yml`
+
+> 新加一条工作流，采用google clang12，`通用 低端机 clang12 简化配置 v5`，对应的工作流文件是`build-clang12-simplified-v5.yml`，换低版本clang的好处是，可以有效解决几百条`LLVM ERROR: IO failure on output stream: Broken pipe`的错误提示。
 
 <br>
 
